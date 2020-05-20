@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colors-asas{
+    color: hsl(238, 22%, 44%);  /*aboveFooter background*/
+    color: hsl(243, 87%, 12%); /*footer background*/
+    
+    color: hsl(170, 45%, 43%); /*Very Dark Blue*/
+    color: hsl(240, 75%, 98%); /*Very Dark Blue*/
+    color: hsl(0, 0%, 75%); /*Very Dark Blue*/
+    color: hsl(224, 93%, 58%); /*Very Dark Blue*/
+    color: hsl(243, 87%, 12%); /*Very Dark Blue*/
+}
+
+body{
+    font: 400 16px Raleway, sans-serif;
+    color: hsl(243, 87%, 12%); /*Very Dark Blue*/
+}
+
+a{
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+
+/* -----------------header styling start------------------ */
+
+/* container */
+header .container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5em ;
+}
+
+/*logo*/
+header img{
+    width: 5em;
+    height: 1.1em;
+    display: block;
+    padding-left: 1em;
+}
+
+/*navbar*/
+header ul.nav {
+    list-style: none;
+    margin-left: auto;
+    padding-right: 1em;
+}
+
+header ul.nav li {
+    display: inline-block;
+    font: 500 11px Raleway, sans-serif;
+    padding: 0 .2em;
+
+}
+
+header ul.nav li a:hover {
+    transition: all .2s ease-in-out;
+    color: hsl(170, 45%, 43%);
+}    
+
+header ul.nav li a:active {
+    text-decoration: underline;
+    transition: all .2s ease-in-out;
+    color: hsl(170, 45%, 43%);
+    
+}
+
+
+/* -----------------section1 styling start------------------- */
+/* main section */
+.section1{
+    padding: 100px 0 200px 0;
+    background: url('../images/bg-curve-mobile.svg') no-repeat bottom ;
+    background-size: 100% auto; 
+}
+/* container */
+.section1 .container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* img  div*/
+.section1 .container div:first-of-type img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+/*  content div */
+.section1 .container div{
+    text-align: center;
+}
+
+.section1 .container div h1 {
+    font: 900 20px Raleway, sans-serif;
+    margin-bottom: 30px;
+}
+.section1 .container div p{
+    font: 500 14px/14px Raleway, sans-serif;
+    margin-bottom: 20px;
+}
+
+.section1 .container div input{
+    background-color: hsl(240, 75%, 98%);
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid hsl(243, 87%, 12%);
+    width: 243px;
+    height:30px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    
+}
+/* get started */
+.section1 .container div #submit{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    padding: 5px 10px;
+    width: 140px;
+    border-radius: 3px;
+}
+
+.section1 .container div #submit:hover{
+    transition: all .2s ease-in-out;
+    background-color: hsl(170, 45%, 43%);
+    color: #fff;
+
+}
+
+
+/* -----------------section2 styling start------------------- */
+
+
+
+/* main section */
+#my-two{
+    background-color: hsl(240, 75%, 98%);
+    padding: 2px 0 40px 0;
+}
+
+/* div 2 : content */
+#section2 div:nth-of-type(2){
+    margin-bottom: 60px;
+}
+
+#section2 div:nth-of-type(2) > h1{
+    font: 900 18px Raleway, sans-serif;
+
+}
+
+#section2 div:nth-of-type(2) > p{
+    text-align: left;
+}
+
+#section2 div:nth-of-type(2) > a{
+    /* border: 1px solid #000; */
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding: 0px 30px 10px 0;
+    color: hsl(170, 45%, 43%);
+}
+
+#section2 div:nth-of-type(2) > img.arrow{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    left: -25px;
+}
+
+/*  div3 : quotation */
+#section2 .quotation{
+    background-color: #fff;
+    text-align: left;
+    margin-top: 30PX;
+    padding: 24px 24px 0 24px; 
+}
+
+#section2 .quotation img.quote{
+    width: auto;
+    margin-bottom: 10px;
+}
+
+#section2 .quotation p{
+    font: 400 12px Raleway, sans-serif;
+}
+
+#section2 .quotation span{
+    display: block;
+    margin-left: 40px;
+
+}
+
+#section2 .quotation span:first-of-type{
+    font: 900 12px Raleway, sans-serif;
+    margin-bottom: 2px;
+    
+}
+
+#section2 .quotation span:last-of-type{
+    font: 400 8px Raleway, sans-serif;
+}
+
+
+#section2 .quotation img.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 27px;
+}
+  
+/* -----------------section3 styling start------------------- */
+
+#sec-three{
+    background-color: hsl(238, 22%, 44%);
+    background-image: none;
+    color: rgba(255, 255, 255, .8);
+    padding: 50px 0;
+}
+
+
+/* -----------------footer styling start------------------- */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: rgba(255, 255, 255, .8);
+}
+
+footer .container{
+    padding-left: 30px;
+    padding: 40px 0;
+}
+
+footer .container > div{
+    padding-left: 30px;
+
+}
+
+
+/* first div */
+footer .container > div:first-of-type{
+    margin-bottom: 20px;
+}
+
+footer .container > div:first-of-type img.logo {
+    width: 9em;
+    height:70px;
+    margin-bottom: 20px;
+}
+
+footer .container > div:first-of-type p {
+    font: 400 14px Raleway, sans-serif;
+    padding-left: 40px;
+    margin-bottom: 14px;
+}
+
+footer .container > div:first-of-type img.phone{
+    transform: scale(.9);
+    position: relative;
+    bottom: 60px;
+    left: 7px;
+}
+
+footer .container > div:first-of-type img.email{
+    transform: scale(.9);
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+
+}
+
+footer .container > div.contact{
+    margin-bottom: 40px;
+}
+
+/* contact div */
+
+footer .container > .contact{
+
+}
+
+footer .container > .contact a{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, .8);
+    font: 400 12px Raleway, sans-serif;
+
+}
+
+footer .contact a:hover{
+    transition: all .2s ease-in-out;
+    color: #FC9C8C;
+    
+}
+footer .contact a:active{
+    transition: all .2s ease-in-out;
+    text-decoration: underline;
+    color: hsl(322, 100%, 66%);
+}
+
+/*social-media */
+.socail-media {
+    margin: 50px 0 30px 0;
+}
+
+footer ul {
+    text-align: center;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer ul li a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px 10px;
+    font-size: .9em;
+    color: #fff;
+}
+
+footer ul li:nth-of-type(2) a, footer ul li:nth-of-type(3) a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: .9em;
+    color: #fff;
+}
+
+footer ul li:first-of-type a:hover{
+    transition: all .3s ease-in-out;
+    transform: translateY(10px);
+    background-color: #fff;
+    border: none;
+    color: #3b5998;
+}
+footer ul li:nth-of-type(2) a:hover{
+    background-color: #fff;
+    border: none;
+    color: #1da1f2;
+}
+footer ul li:nth-of-type(3) a:hover{
+    background-color: #fff;
+    border: none;
+    color: #e4405f;
+}
+
+
+
+
+
+
+
+@media (min-width:430px) and (max-width:767px){
+
+
+    /* -----------------header styling start------------------ */
+    /*logo*/
+    header img{
+        width: 8em;
+        height: 1.6em;
+        padding-left: 1.5em;
+    }
+
+    /*navbar*/
+    header ul.nav {
+        padding-right: 1.2em;
+    }
+
+    header ul.nav li {
+        font: 500 14px Raleway, sans-serif;
+        padding: 0 .37em;
+
+    }
+
+
+    /* -----------------section1 styling start------------------- */
+  
+    .section1 .container div:first-of-type img{
+        width: 80%;
+        
+    }
+
+    .section1 .container div #submit{
+        padding: 5px 10px;
+        border-radius: 2px;
+    }
+
+    /* -----------------footer styling start------------------- */
+
+   
+
+    footer .container > div{
+        padding-left: 60px;
+    
+    }
+
+    footer .container > div:first-of-type img.logo {
+        width: 11em;
+        height:90px;
+    }
+
+    footer .container > div:first-of-type p {
+     font: 400 16px Raleway, sans-serif;
+
+    }
+
+    footer .container > .contact a{
+     font: 400 16px Raleway, sans-serif;
+    }
+    
+
+
+}
+@media (min-width:768px) and (max-width:992px){
+
+    /* -----------------header styling start------------------ */
+    /*logo*/
+    header img{
+        width: 9em;
+        height: 1.8em;
+        padding-left: 1.5em;
+    }
+
+    /*navbar*/
+    header ul.nav {
+        padding-right: 2.2em;
+    }
+
+    header ul.nav li {
+        font: 500 16px Raleway, sans-serif;
+        padding: 0 .4em;
+
+    }
+    /* -----------------section1 styling start------------------- */
+
+    .section1 .container{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .section1 .container div {
+        text-align: left;
+    }
+
+    .section1 .container div:first-of-type{
+        width: 80%;
+        order: 2;
+    }
+
+    .section1 .container div img{
+        height: 350px;
+    }
+
+    .section1 .container div:last-of-type{
+        margin-top: 90px;
+    }
+
+    .section1 .container div h1{
+        font: bold 24px Raleway, sans-serif;
+    }
+
+    .section1 .container div #submit{
+        font: 400 16px Raleway, sans-serif;
+        padding: 5px 10px;
+
+    }
+
+
+    /* -----------------section2 styling start------------------- */
+
+    #section2 div:nth-of-type(2) > h1{
+        font: 900 26px Raleway, sans-serif;
+    }
+
+    #section2 div:nth-of-type(2) > p{
+    width: 65%;
+    }
+
+
+    #section2 .quotation img.quote{
+        width: 10px;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+
+    #section2 div:last-of-type {
+        margin-top: 0px;
+    }
+    #section2 #quotation{
+        margin-top: 30px; 
+
+    }
+
+    #section2 .quotation p{
+        font: 400 12px Raleway, sans-serif;
+    }
+
+    #section2 .quotation span:first-of-type{
+        font: 900 14px Raleway, sans-serif;
+        margin-bottom: 2px; 
+    }
+    
+    #section2 .quotation span:last-of-type{
+        font: 400 10px Raleway, sans-serif;
+    }
+
+
+    /* -----------------section3 styling start------------------- */
+
+    #sec-three .container #first p{
+        width: 80%;
+        line-height: 1.4em;
+    }
+
+    #sec-three .container #last{
+        order: 2;
+        margin-top: 30px;
+    }
+
+    #sec-three .container #last input[type='email']{
+        width: 300px;
+        height: 35px;
+    }
+
+    /* -----------------footer styling start------------------- */
+    footer .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .container > div:first-of-type img.logo {
+        margin-bottom: 0;
+    }
+
+    footer .container .contact,footer .container .social-media{
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+
+    footer .container > .contact a{
+        white-space: nowrap;
+        font: 400 16px Raleway, sans-serif;
+    }
+
+
+
+}
+@media (min-width:993px){
+
+ /* -----------------header styling start------------------ */
+    /*logo*/
+    header img{
+        width: 9em;
+        height: 2.2em;
+        padding-left: 1.5em;
+    }
+
+    /*navbar*/
+    header ul.nav {
+        padding-right: 5em;
+    }
+
+    header ul.nav li {
+        font: 500 16px Raleway, sans-serif;
+        padding: 0 .4em;
+
+    }
+    /* -----------------section1 styling start------------------- */
+
+    .section1 .container{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .section1 .container div {
+        text-align: left;
+    }
+
+   
+
+    .section1 .container div:first-of-type{
+        width: 80%;
+        order: 2;
+    }
+
+    .section1 .container div:first-of-type img{
+        height: 350px;
+    }
+
+    .section1 .container div:last-of-type{
+        margin-top: 100px;
+    }
+
+    .section1 .container div h1{
+        font: bold 24px Raleway, sans-serif;
+    }
+
+    .section1 .container div input{
+        width: 280px;
+
+    }
+
+    .section1 .container div #submit{
+        font: 400 16px Raleway, sans-serif;
+        padding: 5px 10px;
+
+    }
+
+    /* -----------------section2 styling start------------------- */
+
+
+    #section2 div:nth-of-type(2) > h1{
+        font: 900 32px Raleway, sans-serif;
+    }
+
+    #section2 div:nth-of-type(2) > p{
+        width: 65%;
+    }
+
+    #section2 .quotation img.quote{
+        width: 10px;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+
+    #section2 div:last-of-type {
+        margin-top: 0px;
+    }
+
+    #section2 #quotation{
+        margin-top: 30px; 
+    }
+
+    #section2 .quotation p{
+        font: 400 14px Raleway, sans-serif;
+    }
+
+    #section2 .quotation span:first-of-type{
+        font: 900 14px Raleway, sans-serif;
+        margin-bottom: 2px; 
+    }
+    
+    #section2 .quotation span:last-of-type{
+        font: 400 10px Raleway, sans-serif;
+    }
+
+    /* -----------------section3 styling start------------------- */
+
+    #sec-three .container #first p{
+        width: 80%;
+        line-height: 1.4em;
+    }
+
+    #sec-three .container #last{
+        order: 2;
+        margin-top: 30px;
+    }
+
+    #sec-three .container #last input[type='email']{
+        width: 370px;
+        height: 35px;
+    }
+
+    /* -----------------footer styling start------------------- */
+
+    footer .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .container > div:first-of-type img.logo {
+        margin-bottom: 0;
+    }
+
+    footer .container .contact,footer .container .social-media{
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+
+    footer .container > .contact a{
+        font: 400 16px Raleway, sans-serif;
+    }
+
+
+
+}
